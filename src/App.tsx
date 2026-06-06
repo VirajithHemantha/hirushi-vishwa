@@ -2,13 +2,16 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Music, Music2, Volume2, VolumeX } from 'lucide-react';
 import { FloatingPetals } from './components/FloatingPetals';
-import { Hero } from './components/Hero';
+
 import { Countdown } from './components/Countdown';
-import { CeremonyDetails } from './components/CeremonyDetails';
+import { ChurchEvent } from './components/ChurchEvent';
+import { PoruwaEvent } from './components/PoruwaEvent';
+import { HomecomingEvent } from './components/HomecomingEvent';
 import { CoupleDetails } from './components/CoupleDetails';
+import { StorySection } from './components/StorySection';
 // Removed Timeline import
 // Removed Gallery import
-import { Location } from './components/Location';
+import { AddressesSection } from './components/AddressesSection';
 import { RSVPForm } from './components/RSVPForm';
 import { Footer } from './components/Footer';
 import { IntroVideo } from './components/IntroVideo';
@@ -22,7 +25,7 @@ export default function App() {
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const weddingDate = new Date('2026-08-20T09:51:00');
+  const weddingDate = new Date('2026-07-22T11:30:00');
 
   const startMusic = () => {
     if (audioRef.current && !isMusicPlaying) {
@@ -73,13 +76,11 @@ export default function App() {
               {isMusicPlaying ? <Volume2 className="w-6 h-6" /> : <VolumeX className="w-6 h-6" />}
             </button>
 
-            <section id="hero">
-              <Hero />
-            </section>
+
 
             <HeroContent />
 
-            <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-gradient-to-br from-[#1D3557] via-[#457B9D] to-[#2C3E50]">
+            <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-black">
               <CornerFlowers position="top-left" opacity={0.4} scale={1.2} />
               <CornerFlowers position="bottom-right" opacity={0.4} scale={1.2} />
               {/* Premium Background Ambient Glows */}
@@ -99,7 +100,7 @@ export default function App() {
                   Until We Say <span className="italic text-brand-primary-light font-light">"I Do"</span>
                 </h2>
                 
-                <p className="text-lg sm:text-xl font-serif italic text-blue-100/80 mb-12 sm:mb-16 max-w-2xl text-center leading-relaxed">
+                <p className="text-lg sm:text-xl font-serif italic text-white/80 mb-12 sm:mb-16 max-w-2xl text-center leading-relaxed">
                   Time is standing still as we eagerly await the moment our forever begins.
                 </p>
 
@@ -114,10 +115,20 @@ export default function App() {
               <CoupleDetails />
             </section>
 
-            <section id="ceremony" className="py-16 sm:py-32 bg-brand-champagne/40 relative overflow-hidden">
-              <CornerFlowers position="all" opacity={0.6} scale={1.3} />
-              <div className="absolute top-1/2 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-brand-gold-deep/20 to-transparent" />
-              <CeremonyDetails />
+            <section id="story">
+              <StorySection />
+            </section>
+
+            <section id="church">
+              <ChurchEvent />
+            </section>
+
+            <section id="poruwa">
+              <PoruwaEvent />
+            </section>
+
+            <section id="homecoming">
+              <HomecomingEvent />
             </section>
 
             {/* Timeline section removed entirely as requested */}
@@ -126,10 +137,8 @@ export default function App() {
               <Gallery />
             </section>
 
-            <section id="location" className="py-16 sm:py-32 bg-gradient-to-br from-[#1D3557] to-[#2C3E50] relative overflow-hidden">
-              <CornerFlowers position="bottom-left" opacity={0.4} scale={1.2} />
-              <div className="absolute -top-[10%] -right-[5%] w-[40%] h-[60%] bg-brand-primary/10 blur-[100px] rounded-full pointer-events-none" />
-              <Location />
+            <section id="addresses" className="py-16 sm:py-32 bg-brand-ivory">
+              <AddressesSection />
             </section>
 
             <section id="rsvp" className="py-16 sm:py-32 bg-brand-ivory relative overflow-hidden">

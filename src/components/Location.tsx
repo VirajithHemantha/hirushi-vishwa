@@ -45,8 +45,8 @@ export const Location: React.FC = () => {
                   <MapPin className="text-brand-primary-light w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-2xl font-serif text-white mb-1">Waters Edge</p>
-                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-blue-100/60 leading-relaxed mb-6">Battaramulla, Sri Lanka</p>
+                  <p className="text-2xl font-serif text-white mb-1">Monarch Imperial</p>
+                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-blue-100/60 leading-relaxed mb-6">Sri Jayawardenepura, Sri Lanka</p>
 
                   <p className="text-blue-100/80 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-primary-light/40">
                     "A serene and elegant setting where we will begin our new chapter together."

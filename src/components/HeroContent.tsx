@@ -35,10 +35,10 @@ export const HeroContent: React.FC = () => {
 
           <div className="relative mb-12 w-full flex justify-center">
             <h1 className="relative text-6xl sm:text-8xl lg:text-9xl font-display text-stone-800 leading-tight drop-shadow-sm">
-              Thilini <br className="sm:hidden" />
+              Hirushi <br className="sm:hidden" />
               <span className="text-brand-primary-light italic font-light mx-4 sm:mx-8 text-5xl sm:text-7xl lg:text-8xl inline-block -translate-y-2 sm:-translate-y-4">&</span>
               <br className="sm:hidden" />
-              Nadun
+              Vishwa
             </h1>
           </div>
 
@@ -56,7 +56,7 @@ export const HeroContent: React.FC = () => {
             <div className="relative px-8 sm:px-16 py-4 sm:py-6 bg-white/70 backdrop-blur-lg border border-brand-primary/50 rounded-full shadow-[0_8px_30px_rgba(70,130,180,0.1)] flex items-center justify-center">
               <span className="relative text-2xl sm:text-4xl font-serif text-brand-primary tracking-[0.3em] font-medium drop-shadow-sm flex items-center gap-4">
                 <Sparkles className="w-4 h-4 text-brand-primary-light" />
-                20 . 08 . 2026
+                22 . 07 . 2026
                 <Sparkles className="w-4 h-4 text-brand-primary-light" />
               </span>
             </div>

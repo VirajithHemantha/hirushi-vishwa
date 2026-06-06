@@ -6,21 +6,42 @@
   --font-sans: "Inter", sans-serif;
   --font-display: "Cormorant Garamond", serif;
 
-  --color-brand-gold: #D4AF37;
-  --color-brand-gold-light: #F9E27D;
-  --color-brand-gold-deep: #B8860B;
+  --color-brand-gold: #555555;
+  --color-brand-gold-light: #AAAAAA;
+  --color-brand-gold-deep: #222222;
   
-  --color-brand-primary: #4682B4; /* Steel Blue */
-  --color-brand-primary-light: #B0C4DE; /* Light Steel Blue */
-  --color-brand-primary-deep: #2C3E50; /* Dark Steel Blue / Midnight Blue */
-  --color-brand-primary-muted: #5F9EA0; /* Cadet Blue (Muted Steel) */
+  --color-brand-primary: #000000; /* Steel Blue */
+  --color-brand-primary-light: #999999; /* Light Steel Blue */
+  --color-brand-primary-deep: #000000; /* Dark Steel Blue / Midnight Blue */
+  --color-brand-primary-muted: #666666; /* Cadet Blue (Muted Steel) */
   
-  --color-brand-champagne: #F0F4F8; /* Light Blue-Ivory */
-  --color-brand-ivory: #F8FAFC; /* Soft Blue-Ivory */
-  --color-brand-pink: #E63946; /* Accent Red */
-  --color-brand-white: #FAFAFA;
-  --color-brand-accent: #457B9D; /* Steel Blue Accent */
-  --color-brand-dark: #1D3557; /* Navy Blue */
+  --color-brand-champagne: #F5F5F5; /* Light Blue-Ivory */
+  --color-brand-ivory: #FFFFFF; /* Soft Blue-Ivory */
+  --color-brand-pink: #000000; /* Accent Red */
+  --color-brand-white: #FFFFFF;
+  --color-brand-accent: #333333; /* Steel Blue Accent */
+  --color-brand-dark: #000000; /* Navy Blue */
+
+  /* Church Theme */
+  --color-church-primary: #8F9779;
+  --color-church-light: #C0C8AD;
+  --color-church-bg: #F4F6F0;
+  
+  /* Poruwa Theme */
+  --color-poruwa-primary: #D4AF37;
+  --color-poruwa-light: #F3E5AB;
+  --color-poruwa-bg: #FDFBF7;
+
+  /* Homecoming Theme */
+  --color-homecoming-primary: #800020;
+  --color-homecoming-light: #A34A58;
+  --color-homecoming-bg: #FAF5F6;
+
+  /* Oldmoney Theme for Story */
+  --color-oldmoney-cream: #FFFFFF;
+  --color-oldmoney-brown: #000000;
+  --color-oldmoney-olive: #000000;
+  --color-oldmoney-taupe: #666666;
 }
 
 @layer base {
@@ -58,10 +79,10 @@
 }
 
 .wax-seal {
-  background: radial-gradient(circle at 30% 30%, #4682B4, #457B9D, #1D3557);
+  background: radial-gradient(circle at 30% 30%, #333333, #111111, #000000);
   box-shadow:
-    0 8px 25px rgba(29, 53, 87, 0.4),
-    inset -3px -3px 8px rgba(29, 53, 87, 0.3),
+    0 8px 25px rgba(0, 0, 0, 0.4),
+    inset -3px -3px 8px rgba(0, 0, 0, 0.3),
     inset 3px 3px 8px rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
