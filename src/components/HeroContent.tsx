@@ -53,8 +53,8 @@ export const HeroContent: React.FC = () => {
           {/* Enhanced Date pill with premium glass effect */}
           <div className="inline-block relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-brand-primary/40 via-brand-primary-light/40 to-brand-primary/40 rounded-full blur-[8px] opacity-70 group-hover:opacity-100 transition duration-1000 group-hover:duration-300 transform group-hover:scale-105" />
-            <div className="relative px-8 sm:px-16 py-4 sm:py-6 bg-white/70 backdrop-blur-lg border border-brand-primary/50 rounded-full shadow-[0_8px_30px_rgba(70,130,180,0.1)] flex items-center justify-center">
-              <span className="relative text-2xl sm:text-4xl font-serif text-brand-primary tracking-[0.3em] font-medium drop-shadow-sm flex items-center gap-4">
+            <div className="relative px-4 sm:px-16 py-4 sm:py-6 bg-white/70 backdrop-blur-lg border border-brand-primary/50 rounded-full shadow-[0_8px_30px_rgba(70,130,180,0.1)] flex items-center justify-center">
+              <span className="relative text-xl sm:text-4xl font-serif text-brand-primary tracking-[0.1em] sm:tracking-[0.3em] font-medium drop-shadow-sm flex items-center gap-2 sm:gap-4 whitespace-nowrap">
                 <Sparkles className="w-4 h-4 text-brand-primary-light" />
                 22 . 07 . 2026
                 <Sparkles className="w-4 h-4 text-brand-primary-light" />

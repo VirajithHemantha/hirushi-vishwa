@@ -15,7 +15,7 @@ import { AddressesSection } from './components/AddressesSection';
 import { RSVPForm } from './components/RSVPForm';
 import { Footer } from './components/Footer';
 import { IntroVideo } from './components/IntroVideo';
-import { Gallery } from './components/Gallery';
+
 import { HeroContent } from './components/HeroContent';
 import { CornerFlowers } from './components/CornerFlowers';
 
@@ -133,9 +133,7 @@ export default function App() {
 
             {/* Timeline section removed entirely as requested */}
 
-            <section id="gallery" className="bg-brand-ivory">
-              <Gallery />
-            </section>
+
 
             <section id="addresses" className="py-16 sm:py-32 bg-brand-ivory">
               <AddressesSection />

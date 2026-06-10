@@ -101,7 +101,7 @@ export const ChurchEvent: React.FC = () => {
               
               <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-t-full overflow-hidden border-[6px] sm:border-[8px] border-white shadow-xl bg-church-bg group flex items-center justify-center">
                 <img 
-                  src="/pre/gallery-1.jpg" 
+                  src="/WhatsApp Image 2026-06-10 at 01.11.22.jpeg" 
                   alt="Church Function" 
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

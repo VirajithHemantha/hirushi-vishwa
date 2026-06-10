@@ -62,7 +62,7 @@ export const StorySection: React.FC = () => {
             
             <div className="w-full aspect-square bg-oldmoney-cream overflow-hidden">
               <img 
-                src="/pre/gallery-4.jpg"
+                src="/WhatsApp Image 2026-06-10 at 01.11.26.jpeg"
                 alt="Our first meeting" 
                 className="w-full h-full object-cover filter grayscale contrast-[95%]"
                 referrerPolicy="no-referrer"

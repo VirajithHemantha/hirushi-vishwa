@@ -102,7 +102,7 @@ export const HomecomingEvent: React.FC = () => {
               
               <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-[2rem] sm:rounded-[3rem] overflow-hidden border-[6px] sm:border-[8px] border-white shadow-xl bg-homecoming-bg group flex items-center justify-center">
                 <img 
-                  src="/pre/gallery-3.jpg" 
+                  src="/WhatsApp Image 2026-06-10 at 01.11.27 (1).jpeg" 
                   alt="Homecoming" 
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />
