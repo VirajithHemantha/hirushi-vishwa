@@ -58,7 +58,7 @@ export const CoupleDetails: React.FC = () => {
 
           <div className="relative w-[300px] h-[400px] sm:w-[360px] sm:h-[500px] lg:w-[420px] lg:h-[580px] rounded-[12rem_12rem_16px_16px] overflow-hidden border-[6px] border-white/90 shadow-[0_20px_50px_rgba(70,130,180,0.2)] bg-brand-champagne mx-auto z-10 transition-transform duration-700 group-hover:-translate-y-2 flex flex-col items-center justify-center gap-4">
             <img 
-              src="/pre/gallery-1.jpg" 
+              src="/pre/gallery-3.jpg" 
               alt="Couple" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />

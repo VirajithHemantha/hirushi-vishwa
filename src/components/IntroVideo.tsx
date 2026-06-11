@@ -21,7 +21,7 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
 
   return (
     <div className="fixed inset-0 z-[200] bg-black flex items-center justify-center overflow-hidden">
-      <motion.div 
+      <motion.div
         key="video"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -45,10 +45,10 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
           <source src="/Video Project 7.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        
+
         <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/60 via-transparent to-black/40" />
       </motion.div>
-      
+
       {/* Cinematic Background Elements */}
       <div className="absolute inset-0 pointer-events-none z-10">
         <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-black to-transparent opacity-60" />
@@ -56,13 +56,13 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
       </div>
 
       {/* Overlay Text */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.5, duration: 2, ease: "easeOut" }}
         className="absolute inset-0 pointer-events-none flex flex-col items-center justify-center z-20"
       >
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 1.5 }}
@@ -70,7 +70,7 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
         >
           Hirushi <span className="italic font-light text-white/80 mx-2">&</span> Vishwa
         </motion.h1>
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 1.5 }}
