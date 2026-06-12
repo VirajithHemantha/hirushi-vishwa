@@ -39,7 +39,7 @@ export const HomecomingEvent: React.FC = () => {
                     <Calendar className="w-5 h-5 text-homecoming-primary" />
                   </div>
                   <div>
-                    <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-1 group-hover:text-homecoming-primary transition-colors duration-500">Friday, July 24</h4>
+                    <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-1 group-hover:text-homecoming-primary transition-colors duration-500">Sunday, July 26</h4>
                     <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Maze Glass House, Wennappuwa</p>
                   </div>
                 </div>
