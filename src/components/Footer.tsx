@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
             With all our love 💕
           </div>
           <div className="text-[9px] text-stone-300 tracking-widest uppercase font-medium">
-            © 2026 Hirushi & Vishwa Wedding
+            © 2026 Hirushi & Vishwa Wedding Invitation
           </div>
         </div>
       </div>
